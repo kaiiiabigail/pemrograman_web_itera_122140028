@@ -1,5 +1,6 @@
 
 Pertemuan 2
+
  fitur ES6+ (JavaScript modern) yang diimplementasikan:
 
 1. Arrow Functions
