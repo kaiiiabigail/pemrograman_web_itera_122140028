@@ -1,0 +1,207 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Imad</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <header>
+        <h1>Dashboard Produktif Imad</h1>
+        <div class="date-time">
+          <div id="current-date"></div>
+          <div id="current-time"></div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section tasks-section">
+          <h2>Tugas</h2>
+          <div class="content-wrapper">
+            <form id="task-form">
+              <input
+                type="text"
+                id="task-title"
+                placeholder="Apa Yang Akan Kamu Kerjakan?"
+                required
+              />
+              <input type="date" id="task-deadline" required />
+              <select id="task-priority">
+                <option value="low">Prioritas Rendah</option>
+                <option value="medium">Prioritas Menengah</option>
+                <option value="high">Prioritas Utama</option>
+              </select>
+              <button type="submit">Masukkan Tugas</button>
+            </form>
+            <div class="list-container">
+              <ul id="tasks-list"></ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section schedule-section">
+          <h2>Jadwal Kelas</h2>
+          <div class="content-wrapper">
+            <form id="schedule-form">
+              <input
+                type="text"
+                id="class-name"
+                placeholder="Nama Kelas"
+                required
+              />
+              <select id="class-day">
+                <option value="monday">Senin</option>
+                <option value="tuesday">Selasa</option>
+                <option value="wednesday">Rabu</option>
+                <option value="thursday">Kamis</option>
+                <option value="friday">Jumat</option>
+              </select>
+              <input type="time" id="class-time" required />
+              <input
+                type="text"
+                id="class-location"
+                placeholder="Lokasi (Contoh GK2 212)"
+                required
+              />
+              <button type="submit">Masukkan Kelas</button>
+            </form>
+            <div class="list-container">
+              <ul id="schedule-list"></ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section notes-section">
+          <h2>Notes</h2>
+          <div class="content-wrapper">
+            <form id="note-form">
+              <input type="text" id="note-title" placeholder="Judul" required />
+              <textarea
+                id="note-content"
+                placeholder="Masukkan Catatan Anda Disini"
+                required
+              ></textarea>
+              <button type="submit">Masukkan Notes</button>
+            </form>
+            <div class="list-container">
+              <div id="notes-list"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
+=======
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard Imad</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="dashboard">
+      <header>
+        <h1>Dashboard Produktif Imad</h1>
+        <div class="date-time">
+          <div id="current-date"></div>
+          <div id="current-time"></div>
+        </div>
+      </header>
+
+      <main>
+        <section class="section tasks-section">
+          <h2>Tugas</h2>
+          <div class="content-wrapper">
+            <form id="task-form">
+              <input
+                type="text"
+                id="task-title"
+                placeholder="Apa Yang Akan Kamu Kerjakan?"
+                required
+              />
+              <input type="date" id="task-deadline" required />
+              <select id="task-priority">
+                <option value="low">Prioritas Rendah</option>
+                <option value="medium">Prioritas Menengah</option>
+                <option value="high">Prioritas Utama</option>
+              </select>
+              <button type="submit">Masukkan Tugas</button>
+            </form>
+            <div class="list-container">
+              <ul id="tasks-list"></ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section schedule-section">
+          <h2>Jadwal Kelas</h2>
+          <div class="content-wrapper">
+            <form id="schedule-form">
+              <input
+                type="text"
+                id="class-name"
+                placeholder="Nama Kelas"
+                required
+              />
+              <select id="class-day">
+                <option value="monday">Senin</option>
+                <option value="tuesday">Selasa</option>
+                <option value="wednesday">Rabu</option>
+                <option value="thursday">Kamis</option>
+                <option value="friday">Jumat</option>
+              </select>
+              <input type="time" id="class-time" required />
+              <input
+                type="text"
+                id="class-location"
+                placeholder="Lokasi (Contoh GK2 212)"
+                required
+              />
+              <button type="submit">Masukkan Kelas</button>
+            </form>
+            <div class="list-container">
+              <ul id="schedule-list"></ul>
+            </div>
+          </div>
+        </section>
+
+        <section class="section notes-section">
+          <h2>Notes</h2>
+          <div class="content-wrapper">
+            <form id="note-form">
+              <input type="text" id="note-title" placeholder="Judul" required />
+              <textarea
+                id="note-content"
+                placeholder="Masukkan Catatan Anda Disini"
+                required
+              ></textarea>
+              <button type="submit">Masukkan Notes</button>
+            </form>
+            <div class="list-container">
+              <div id="notes-list"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script type="module" src="js/main.js"></script>
+  </body>
+</html>
+>>>>>>> 46ef116e4c333020536d97f8df7297f9452c8646
