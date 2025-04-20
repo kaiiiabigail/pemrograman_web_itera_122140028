@@ -23,22 +23,27 @@ Aplikasi web untuk mengelola koleksi buku pribadi yang memungkinkan pengguna men
 ## Tampilan Aplikasi
 
 ### Halaman Beranda
-![Halaman Beranda](/api/placeholder/800/400)
+![image](https://github.com/user-attachments/assets/95433063-4af9-42d0-b0e5-87a2ffb771c6)
+
 *Screenshot halaman beranda aplikasi menampilkan daftar buku dengan filter dan pencarian*
 
 ### Form Tambah/Edit Buku
-![Form Tambah Buku](/api/placeholder/800/400)
+![image](https://github.com/user-attachments/assets/efbed8d5-d88f-4ad6-a8bf-0494c7b01fc4)
+
 *Screenshot form untuk menambah atau mengedit buku*
 
 ### Filter dan Pencarian
-![Filter dan Pencarian](/api/placeholder/800/400)
+![image](https://github.com/user-attachments/assets/beef924d-6075-4174-b7f7-4d72781a9492)
+
 *Screenshot fitur filter status dan pencarian buku*
 
 ## Cara Instalasi
 
 1. Clone repository ini:
 ```bash
-git clone
+git clone https://github.com/kaiiiabigail/pemrograman_web_itera_122140028.git
+
+cd imad_122140028_pertemuan3
 ```
 
 2. Install dependencies:
@@ -61,35 +66,7 @@ Aplikasi ini dilengkapi dengan unit test untuk komponen utama.
 npm test
 ```
 
-## Struktur Direktori
 
-```
-book-management-app/
-├── public/
-├── src/
-│   ├── components/          # Komponen reusable
-│   │   ├── BookCard.js      # Komponen kartu buku
-│   │   ├── BookFilter.js    # Filter status buku
-│   │   └── SearchBar.js     # Pencarian buku
-│   │
-│   ├── context/
-│   │   └── BookContext.js   # Context API untuk state management
-│   │
-│   ├── hooks/
-│   │   ├── useFilteredBooks.js  # Custom hook untuk filtering buku
-│   │   └── useLocalStorage.js   # Custom hook untuk localStorage
-│   │
-│   ├── pages/
-│   │   ├── BookForm.jsx     # Halaman form tambah/edit buku
-│   │   ├── Home.jsx         # Halaman utama
-│   │   └── NotFound.jsx     # Halaman 404
-│   │
-│   ├── App.css
-│   ├── App.js               # Setup router dan aplikasi utama
-│   └── index.js
-├── package.json
-└── README.md
-```
 
 ## Penggunaan
 
