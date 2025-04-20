@@ -38,8 +38,7 @@ Aplikasi web untuk mengelola koleksi buku pribadi yang memungkinkan pengguna men
 
 1. Clone repository ini:
 ```bash
-git clone https://github.com/username/book-management-app.git
-cd book-management-app
+git clone
 ```
 
 2. Install dependencies:
